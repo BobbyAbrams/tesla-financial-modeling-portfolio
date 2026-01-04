@@ -1,1 +1,16 @@
-original data
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data - only ignore raw
+data/raw/
+
+# Other unrelated
+anaconda_projects/
