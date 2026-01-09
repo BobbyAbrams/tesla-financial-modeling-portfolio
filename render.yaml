@@ -2,12 +2,12 @@ services:
   - type: web
     name: tesla-optimus-dashboard
     env: python
-    buildCommand: |
-      pip install --upgrade pip
-      pip install -r requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:server
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.0
+        value: "3.10.0"
+      - key: POETRY_VERSION
+        value: ""
     plan: free
     autoDeploy: true

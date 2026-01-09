@@ -34,3 +34,4 @@ data/processed/*.xlsx
 !data/processed/cash flow.xlsx
 
 !data/processed/Tesla_Financial_Forecast_Model.xlsx
+*.backup

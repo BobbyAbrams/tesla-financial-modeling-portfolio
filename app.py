@@ -197,7 +197,7 @@ app.layout = dbc.Container([
                     html.Label("选择地区:", className="form-label"),
                     dcc.Dropdown(
                         id="region-selector",
-                        options=[{"label": r, "value": r} for r in data['regional_data']['Region'].tolist()],
+                        options=[{"label": r, "value": r} for r in data['regional_data']['地区'].tolist()],
                         value=["美国", "中国", "欧洲"],
                         multi=True,
                         className="mb-3"
@@ -423,12 +423,12 @@ def update_regional_pie_chart(year_range, selected_regions):
         values_col = selected_year
     
     # 过滤选中的地区
-    df_filtered = df[df['Region'].isin(selected_regions)]
+    df_filtered = df[df['地区'].isin(selected_regions)]
     
     fig = px.pie(
         df_filtered,
         values=values_col,
-        names='Region',
+        names='地区',
         title=f'各地区收入分布 ({selected_year})',
         hole=0.4,
         color_discrete_sequence=px.colors.sequential.Blues_r
@@ -576,7 +576,7 @@ def update_growth_chart(analysis_dimension):
         # 地区增长率
         fig = px.bar(
             region_growth.sort_values('CAGR_2024_2030', ascending=False),
-            x='Region',
+            x='地区',
             y='CAGR_2024_2030',
             title='各地区2024-2030复合增长率 (CAGR)',
             color='CAGR_2024_2030',
@@ -631,7 +631,7 @@ def update_growth_chart(analysis_dimension):
         # 默认显示地区增长率
         fig = px.bar(
             region_growth.sort_values('CAGR_2024_2030', ascending=False),
-            x='Region',
+            x='地区',
             y='CAGR_2024_2030',
             title='各地区2024-2030复合增长率 (CAGR)',
             text='CAGR_2024_2030'
