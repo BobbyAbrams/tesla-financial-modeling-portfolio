@@ -1,37 +1,62 @@
-# System and IDE
-.DS_Store
-Thumbs.db
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# Python and Jupyter
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Data - only ignore raw
-data/raw/
+# Backup files
+*.backup
+backup_*
+*_backup.*
 
-# Other unrelated
-anaconda_projects/
+# Temp files
+temp_*
+tmp/
 
-# --- Auto-generated files in processed/ (DO NOT TRACK) ---
-data/processed/*.png
-data/processed/*.csv
-data/processed/*.xlsx
-# 但手动整理的两个核心文件除外
-!data/processed/R&D.xlsx
-!data/processed/revenue and profit margin.xlsx
+# Render/Docker
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 项目特定
+data/raw/           # 原始数据（如果很大）
+reports/           # 生成报告
+notebooks/.ipynb_checkpoints/
 
 anaconda_projects
+data/raw
 # --- 自动生成的数据文件（不要跟踪） ---
 data/processed/*.png
 data/processed/*.csv
 data/processed/*.xlsx
 # 但保留我们手动整理的核心文件 R&D.xlsx
+!data/processed/cash_flow.xlsx
 !data/processed/R&D.xlsx
 !data/processed/revenue and profit margin.xlsx
-!data/processed/cash flow.xlsx
-
+!data/processed/Tesla_All_Sheets_Scenarios.xlsx
 !data/processed/Tesla_Financial_Forecast_Model.xlsx
-*.backup
