@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: tesla-optimus-dashboard
-    dockerfilePath: ./Dockerfile
-    plan: free
-    autoDeploy: true
