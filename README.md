@@ -10,23 +10,24 @@ An independent, professional-grade financial analysis project that rigorously ev
 
 ## 📂 Repository Structure
 tesla-financial-analysis/
-├── 01_financial_forecasting_foundation/ # Module 1: The Foundation
-│ ├── notebooks/ # Jupyter notebooks for 5-year integrated financial statement forecasting
-│ ├── reports/ # Analysis summaries and commentary
-│ └── data_sources/ # Curated data specific to this module
-├── 02_product_level_valuation/ # Module 2: Applied Investment Analysis
-│ ├── model_y_shanghai_project/ # Deep Dive: DCF Valuation of the Shanghai Giga Model Y Line
-│ │ ├── notebooks/ # DCF model construction and sensitivity analysis
-│ │ ├── models/ # Interactive Excel valuation models
-│ │ └── outputs/ # Valuation results and charts
-│ └── optimus_future_analysis/ # [Future] Strategic analysis of the Optimus initiative
-├── data/ # Centralized Data Repository
-│ ├── processed/ # Cleaned, analysis-ready datasets (e.g., financial statements, cost data)
-│ └── raw/ # [Archival] Original data sources
-├── README.md # Project Overview (You are here)
-├── .gitignore # Files and directories excluded from version control
-└── requirements.txt # Python dependencies (if applicable)
-└── LICENSE # MIT
+├── 01_financial_forecasting_foundation/          # Module 1: The Foundation
+│   ├── notebooks/                                # Jupyter notebooks for 5-year integrated financial statement forecasting
+│   ├── reports/                                  # Analysis summaries and commentary
+│   └── data_sources/                             # Curated data specific to this module
+├── 02_product_level_valuation/                   # Module 2: Applied Investment Analysis
+│   ├── model_y_shanghai_project/                 # Deep Dive: DCF Valuation of the Shanghai Giga Model Y Line
+│   │   ├── notebooks/                            # DCF model construction and sensitivity analysis
+│   │   ├── models/                               # Interactive Excel valuation models
+│   │   └── outputs/                              # Valuation results and charts
+│   └── optimus_future_analysis/                  # [Future] Strategic analysis of the Optimus initiative
+├── data/                                         # Centralized Data Repository
+│   ├── processed/                                # Cleaned, analysis-ready datasets
+│   └── raw/                                      # [Archival] Original data sources
+├── README.md                                     # Project Overview (You are here)
+├── .gitignore                                    # Files and directories excluded from version control
+├── requirements.txt                              # Python dependencies
+└── LICENSE                                       # MIT License
+```
 
 ## 🔍 Module Deep Dive
 
@@ -65,25 +66,3 @@ This is a continuous learning project. I welcome discussions on financial modeli
 
 **Connect with me**: [Your LinkedIn Profile URL]
 **View the analysis**: [Link to a specific notebook or dashboard if hosted online] 
- 
-
-## 📂 Repository Structure
-
-tesla-financial-analysis/
-├── 01_financial_forecasting_foundation/ # Module 1: The Foundation
-│ ├── notebooks/ # Jupyter notebooks for 5-year integrated financial statement forecasting
-│ ├── reports/ # Analysis summaries and commentary
-│ └── data_sources/ # Curated data specific to this module
-├── 02_product_level_valuation/ # Module 2: Applied Investment Analysis
-│ ├── model_y_shanghai_project/ # Deep Dive: DCF Valuation of the Shanghai Giga Model Y Line
-│ │ ├── notebooks/ # DCF model construction and sensitivity analysis
-│ │ ├── models/ # Interactive Excel valuation models
-│ │ └── outputs/ # Valuation results and charts
-│ └── optimus_future_analysis/ # [Future] Strategic analysis of the Optimus initiative
-├── data/ # Centralized Data Repository
-│ ├── processed/ # Cleaned, analysis-ready datasets
-│ └── raw/ # [Archival] Original data sources
-├── README.md # Project Overview (You are here)
-├── .gitignore # Files and directories excluded from version control
-├── requirements.txt # Python dependencies
-└── LICENSE # MIT License
