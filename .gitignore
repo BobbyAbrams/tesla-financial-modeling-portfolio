@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.backup
+backup_*
+*_backup.*
+
+# Temp files
+temp_*
+tmp/
+
+# Render/Docker
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 椤圭洰鐗瑰畾
+data/raw/           # 鍘熷鏁版嵁锛堝鏋滃緢澶э級
+reports/           # 鐢熸垚鎶ュ憡
+notebooks/.ipynb_checkpoints/
+
+anaconda_projects
+data/raw
+# --- 鑷姩鐢熸垚鐨勬暟鎹枃浠讹紙涓嶈璺熻釜锛?---
+data/processed/*.png
+data/processed/*.csv
+# 浣嗕繚鐣欐垜浠墜鍔ㄦ暣鐞嗙殑鏍稿績鏂囦欢 R&D.xlsx
+!data/processed/cash_flow.xlsx
+!data/processed/R&D.xlsx
+!data/processed/revenue and profit margin.xlsx
+!data/processed/Tesla_All_Sheets_Scenarios.xlsx
+!data/processed/Tesla_Financial_Forecast_Model.xlsx
+deploy/
+deploy/
+
+anaconda_projects
+data/raw
+# --- 鑷姩鐢熸垚鐨勬暟鎹枃浠讹紙涓嶈璺熻釜锛?---
+data/processed/*.png
+data/processed/*.csv
+# 浣嗕繚鐣欐垜浠墜鍔ㄦ暣鐞嗙殑鏍稿績鏂囦欢 R&D.xlsx
+notebooks/visualizations/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 开发环境
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# 数据与缓存
+data/raw/          # 原始数据不上传
+*.xlsx             # 考虑是否忽略所有Excel，或仅通过data/processed管理
+*.csv
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 本地输出
+*/outputs/*
+*/reports/*.png
+*/reports/*.jpg
