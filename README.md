@@ -26,7 +26,7 @@ tesla-financial-analysis/
 ├── README.md # Project Overview (You are here)
 ├── .gitignore # Files and directories excluded from version control
 └── requirements.txt # Python dependencies (if applicable)
-
+└── LICENSE # MIT
 
 ## 🔍 Module Deep Dive
 
