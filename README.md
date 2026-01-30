@@ -9,6 +9,8 @@ An independent, professional-grade financial analysis project that rigorously ev
 *   **Real-World Application**: Built with the latest market data (e.g., BNEF battery price forecasts) and reflects current competitive dynamics.
 
 ## 📂 Repository Structure
+
+```
 tesla-financial-analysis/
 ├── 01_financial_forecasting_foundation/          # Module 1: The Foundation
 │   ├── notebooks/                                # Jupyter notebooks for 5-year integrated financial statement forecasting
