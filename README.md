@@ -21,7 +21,7 @@ tesla-financial-analysis/
 │   │   ├── notebooks/                            # DCF model construction and sensitivity analysis
 │   │   ├── models/                               # Interactive Excel valuation models
 │   │   └── outputs/                              # Valuation results and charts
-│   └── optimus_future_analysis/                  # [Future] Strategic analysis of the Optimus initiative
+│   └── optimus_future_analysis/                  # [Active] Strategic analysis of the Optimus initiative
 ├── data/                                         # Centralized Data Repository
 │   ├── processed/                                # Cleaned, analysis-ready datasets
 │   └── raw/                                      # [Archival] Original data sources
