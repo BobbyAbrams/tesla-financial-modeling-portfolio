@@ -44,8 +44,8 @@ tesla-financial-analysis/
     *   **Analysis**: A full Discounted Cash Flow (DCF) valuation of the Model 3/Y production line as an independent capital project.
     *   **Features**: Granular cost breakdown (including battery pack material analysis), multi-scenario modeling (Base, Bull, Bear), and sensitivity analysis on key value drivers (battery cost, volume, ASP).
     *   **Business Question Answered**: "Does this specific project create shareholder value under current and expected future market conditions?"
-*   **Project 2.2: [Planned] Optimus Initiative Strategic Valuation**
-    *   **Future Roadmap**: Plans to extend the same disciplined DCF and scenario planning framework to value Tesla's long-term strategic bet on humanoid robotics, focusing on optionality and strategic synergy valuation.
+*   **Project 2.2: [Active] Optimus Initiative Strategic Valuation**
+    *   **Completed Analysis**: Applied disciplined DCF and scenario planning framework to value Tesla's humanoid robotics business with focus on optionality and strategic synergy valuation.
 
 ## 🛠️ Technical Stack & Skills
 *   **Financial Modeling & Valuation**: Advanced Excel, Discounted Cash Flow (DCF) Analysis, Three-Statement Modeling, Scenario & Sensitivity Analysis.
