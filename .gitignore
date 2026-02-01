@@ -96,3 +96,5 @@ data/raw/          # 原始数据不上传
 # Excel temporary files
 ~.xlsx
 ~.xls
+*.py
+*.sh
